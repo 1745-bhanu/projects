@@ -3,7 +3,7 @@ import boto3
 
 client = boto3.client('ses', 
                   aws_access_key_id="#############",
-                  aws_secret_access_key="bIAgBdYLxjkQ3BrxG6qJMLV/+QhH6OUP569WYa9N",
+                  aws_secret_access_key="#####################",
                   region_name="us-east-2")
 
 def lambda_handler(event, context):
